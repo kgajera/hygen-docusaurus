@@ -18,10 +18,13 @@ hygen-add docusaurus
 
 ## Generators
 
-- [Blog Post](#blog-post) - Generates a `./blog/YYYY-MM-DD-name/index.md` file for the [blog content plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)
-- [Docs](#docs) - Generates a markdown file in the `./docs` directory for the [docs content plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs)
+- [Blog Post](#blog-post)
+- [Component](#component)
+- [Doc](#doc)
 
 ### Blog Post
+
+Creates a `blog/YYYY-MM-DD-name/index.md` file for the [blog content plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog):
 
 ```
 hygen blog new [name]
@@ -43,7 +46,17 @@ hygen blog new [name]
 | `--slug`                   | `string`  | Allows to customize the blog post url.                                                                                                                                                        |
 | `-i`                       | `boolean` | Run the generator in interactive mode to prompt for all arguments.                                                                                                                            |
 
-### Docs
+### Component
+
+Creates a React component in the `src/components` directory:
+
+```
+hygen component new [name]
+```
+
+### Doc
+
+Creates a markdown file in the `docs` directory for the [docs content plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs):
 
 ```
 hygen doc new [name]
