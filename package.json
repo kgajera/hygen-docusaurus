@@ -1,0 +1,13 @@
+{
+  "name": "hygen-docusaurus",
+  "version": "1.0.0",
+  "description": "A hygen package for Docusaurus",
+  "keywords": [
+    "hygen",
+    "generator",
+    "boilerplate",
+    "docusaurus"
+  ],
+  "repository": "https://github.com/kgajera/hygen-docusaurus",
+  "license": "MIT"
+}
