@@ -12,6 +12,9 @@ hide_table_of_contents: <%= !!locals.hide_table_of_contents %>
 <% if (locals.hide_title !== undefined) { -%>
 hide_title: <%= !!locals.hide_title %>
 <% } -%>
+<% if (locals.id) { -%>
+id: <%= id %>
+<% } -%>
 <% if (locals.image) { -%>
 image: <%= image %>
 <% } -%>

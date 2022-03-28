@@ -25,6 +25,12 @@ const questions = (name) => [
   },
   {
     type: 'input',
+    name: 'id',
+    message: 'ID?',
+    initial: name,
+  },
+  {
+    type: 'input',
     name: 'description',
     message: 'Description?',
   },
