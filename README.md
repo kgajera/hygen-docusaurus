@@ -21,6 +21,7 @@ hygen-add docusaurus
 - [Blog Post](#blog-post)
 - [Component](#component)
 - [Doc](#doc)
+- [Page](#page)
 
 ### Blog Post
 
@@ -54,6 +55,10 @@ Creates a React component in the `src/components` directory:
 hygen component new [name]
 ```
 
+| Argument                   | Type      | Description                                                                                                                                                                                          |
+| -------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `[name]`                   | `string`  | Name of component (`MyButton`).                                                                                                                         |
+
 ### Doc
 
 Creates a markdown file in the `docs` directory for the [docs content plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs):
@@ -83,3 +88,15 @@ hygen doc new [name]
 | `--slug`                   | `string`  | Allows to customize the document url.                                                                                                                                                                |
 | `--tags`                   | `string`  | Comma separated list to tag to your docs.                                                                                                                                                            |
 | `-i`                       | `boolean` | Run the generator in interactive mode to prompt for all arguments.                                                                                                                                   |
+
+### Page
+
+Creates a React component in the `src/pages` directory:
+
+```
+hygen page new [name]
+```
+
+| Argument                   | Type      | Description                                                                                                                                                                                          |
+| -------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `[name]`                   | `string`  | Name of component (`Home`).

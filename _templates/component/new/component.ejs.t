@@ -1,7 +1,7 @@
 ---
-to: src/components/<%= name %>/index.tsx
+to: src/components/<%= name %>.tsx
 ---
-<% const comp = h.inflection.undasherize(name) -%>
+<% const comp = name -%>
 import React from "react";
 
 interface <%= comp %>Props {
